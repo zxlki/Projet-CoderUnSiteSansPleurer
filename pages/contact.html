@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="../assets/style/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <h1>Coder Un Site Sans Pleurer</h1>
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="burger">&#9776;</label>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="./html.html">HTML</a></li>
+                <li><a href="./css.html">CSS</a></li>
+                <li><a href="./javascript.html">JavaScript</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-section">
+            <h2>Contact</h2>
+            <p>Une question ? Une remarque ? Envoie-nous un message !</p>
+            <form class="contact-form">
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required>
+
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 CoderUnSiteSansPleurer.</p>
+    </footer>
+</body>
+
+</html>

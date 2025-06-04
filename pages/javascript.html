@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="../assets/style/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+
+    <header>
+        <h1>Coder Un Site Sans Pleurer</h1>
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="burger">&#9776;</label>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="./html.html">HTML</a></li>
+                <li><a href="./css.html">CSS</a></li>
+                <li><a href="./javascript.html">JavaScript</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>Découvrir JavaScript</h2>
+            <p>JavaScript est un langage de programmation essentiel pour rendre les sites web interactifs.</p>
+            <p>Il te permet d'ajouter du dynamisme, des animations et de réagir aux actions des utilisateurs.</p>
+        </section>
+        <section class="js-tags">
+            <h3>Exemple simple</h3>
+            <p>Voici comment afficher un message dans la console :</p>
+            <pre><code>console.log("Bonjour depuis JavaScript !");</code></pre>
+
+            <h3>Manipuler le DOM</h3>
+            <p>Tu peux modifier le contenu HTML avec JavaScript :</p>
+            <pre><code>
+document.getElementById("monTitre").textContent = "Texte modifié !";
+      </code></pre>
+            <h3>Ajouter un bouton interactif</h3>
+            <button onclick="alert('Tu as cliqué !')">Clique-moi</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 CoderUnSiteSansPleurer.</p>
+    </footer>
+
+</body>
+
+</html>

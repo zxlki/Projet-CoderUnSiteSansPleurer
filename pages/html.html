@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML</title>
+    <link rel="stylesheet" href="../assets/style/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+
+    <header>
+        <h1>Coder Un Site Sans Pleurer</h1>
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="burger">&#9776;</label>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="./html.html" class="active">HTML</a></li>
+                <li><a href="./css.html">CSS</a></li>
+                <li><a href="./javascript.html">JavaScript</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>Introduction au HTML</h2>
+            <p>Le HTML (HyperText Markup Language) est le langage de base utilisé pour créer des pages web.</p>
+            <p>Il sert à structurer le contenu, comme les titres, paragraphes, images, liens, et plus.</p>
+        </section>
+
+        <section class="html-tags">
+            <h3>Quelques balises HTML essentielles</h3>
+            <ul>
+                <li><code>&lt;h1&gt; ... &lt;/h1&gt;</code> : Titre principal</li>
+                <li><code>&lt;p&gt; ... &lt;/p&gt;</code> : Paragraphe de texte</li>
+                <li><code>&lt;a href="url"&gt; ... &lt;/a&gt;</code> : Lien cliquable</li>
+                <li><code>&lt;img src="image.jpg" alt="texte" /&gt;</code> : Image</li>
+            </ul>
+
+            <h3>Exemple simple de code HTML</h3>
+            <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="fr"&gt;
+  &lt;head&gt;
+    &lt;title&gt;Ma page&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Bienvenue !&lt;/h1&gt;
+    &lt;p&gt;Ceci est un paragraphe.&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+      </code></pre>
+        </section>
+
+        <a href="./css.html" class="btn">Découvrir le CSS</a>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 CoderUnSiteSansPleurer.</p>
+    </footer>
+
+</body>
+
+</html>
